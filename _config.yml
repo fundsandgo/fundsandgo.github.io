@@ -18,19 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Funds&Go
+email: support@fundsandgo.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Up-to-date high-coverage Spanish funds data service. 
+  +3500 fund shareclasses in Spain. 
+  Full fund look-through information. 
+  Get access to our periodic updates via our FTP
+
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
@@ -53,3 +55,31 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+## Custom configs
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Funds&Go
+  location: Address
+  social: Connect
+  credits: Information
+
+# Footer - add as many lines as necessary
+address:
+  - line: Calle Sierra de Vicor 31
+  - line: Zaragoza, 50003, España
+
+social:
+  - title: envelope
+    url: mailto:support@fundsandgo.com
+
+credits:
+  - title: Legal information
+    url: www.fundsandgo.com
